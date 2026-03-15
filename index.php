@@ -1,15 +1,11 @@
 <?php 
+require __DIR__ . '/vendor/autoload.php';
 
-function hero(){
-    penis();
-    carater();
+use Penis\Penis;
+Class Hero extends Penis{
+    
 }
 
-function carater(){
-    serRomantico();
-}
+$myHero = new Hero();
+$myHero->jato();
 
-function serRomantico(){
-
-}
-?>

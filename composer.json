@@ -3,7 +3,8 @@
     
     "autoload": {
         "psr-4": {
-            "jatao\\": "src/jatao/" 
+            "jatao\\": "src/jatao/",
+            "Penis\\": "src/penis/"
         }
     }
 }

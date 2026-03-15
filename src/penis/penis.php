@@ -1,8 +1,8 @@
 <?php 
-require __DIR__ . '/vendor/autoload.php';
+ namespace Penis; 
 
     use jatao\Jato; //puxando a classe com use + namespace + classe, possibilitando usar ela pra tudo
-
+   
 class Penis extends Jato {
     public function endurecer(){
         
@@ -23,10 +23,5 @@ class Penis extends Jato {
 
  $meuPenis = new Penis();
 
-    class Mangueira extends Jato{
-      
-    }
-    $myMangueira = new Mangueira();
 
-    $meuPenis->jato();
 ?>  

@@ -11,12 +11,20 @@ class ComposerStaticInita813390c2a182865e5bce8203b19297a
         array (
             'jatao\\' => 6,
         ),
+        'P' =>
+        array (
+            'Penis\\' => 6,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'jatao\\' =>
         array (
             0 => __DIR__ . '/../..' . '/src/jatao',
+        ),
+        'Penis\\' =>
+        array (
+            0 => __DIR__ . '/../..' . '/src/penis',
         ),
     );
 
